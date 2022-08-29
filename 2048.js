@@ -11,7 +11,12 @@ window.onload = function () {
 // defining setGame Function
 // defining game board
 function setGame() {
-  board = [[2, 0, 0, 0], [(0, 4, 16, 0)], [(0, 8, 32, 0)], [(0, 0, 0, 0)]];
+  board = [
+    [2, 0, 0, 0],
+    [0, 4, 16, 0],
+    [0, 8, 32, 0],
+    [0, 0, 0, 0],
+  ];
 
   // iterate through the rows and columns
 
